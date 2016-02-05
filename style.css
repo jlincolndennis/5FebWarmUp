@@ -1,0 +1,66 @@
+.green1 {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-color: green;
+  margin: 10px;
+}
+
+.green2 {
+  width: 150px;
+  height: 150px;
+  float: left;
+  background-color: rgb(19, 92, 22);
+  border: 5px dotted rgb(0, 255, 110);
+  margin: 10px;
+}
+
+.green3 {
+  width: 300px;
+  height: 200px;
+  float: left;
+  background-color: rgb(17, 250, 20);
+  border-radius: 20px;
+  border: 2px solid rgb(5, 65, 15);
+  margin: 10px;
+}
+
+.green4 {
+  float: left;
+  height: auto;
+  width: auto;
+  padding: 50px;
+  border: 5px solid rgba(192, 237, 180, 0.92);
+  background-color: rgb(139, 228, 70);
+}
+
+.green5 {
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  background: red;
+  height: 100px;
+  width: 300px
+}
+
+.green5 p {
+  font-size: 300%;
+  color: blue;
+  text-align: center;
+}
+
+.green6 {
+  height: 800px;
+  width: 200px;
+  clear: both;
+  background-color: rgb(0, 255, 133);
+  margin-left: 150px;
+  transition-duration: 2s;
+}
+
+.green6:hover {
+  background-color: rgb(51, 97, 68);
+  height: 100px;
+  width: 400px;
+  transition-duration: 2s;
+}
